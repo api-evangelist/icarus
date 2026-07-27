@@ -1,22 +1,64 @@
 aid: icarus
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/icarus.png
 name: Icarus
-description: Icarus is a company surfaced as a portfolio company of y-combinator and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: Icarus is an aerospace and defense company building autonomous, solar-powered
+  stratospheric aircraft for persistent surveillance and connectivity. Its APOLLO platform
+  operates continuously above 60,000 feet, delivering rapid aerial intelligence, wide-area
+  coverage across 1,000+ square miles, and always-on, low-latency (5-10ms) direct-to-device
+  communications for weeks-long missions without ground infrastructure. Founded in 2023 and
+  based in El Segundo, California, Icarus was part of Y Combinator's Fall 2025 batch. The
+  company operates in the defense/aerospace hardware space and does not currently publish any
+  public API, developer portal, SDK, or technical developer surface; this profile captures its
+  identity for the API Evangelist network.
 url: https://raw.githubusercontent.com/api-evangelist/icarus/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
 - y-combinator
+x-yc-batch: Fall 2025
+x-founded: '2023'
+x-headquarters: El Segundo, CA
+x-founder: Henry Kwan
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-enrichment-note: No public API, developer portal, SDK, or MCP surface found (defense/aerospace
+  hardware company). Identity enriched from icarus.one and Y Combinator; domain security probed.
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
+- Aerospace
+- Defense
+- Surveillance
+- Connectivity
+- Stratospheric
+- Autonomous Aircraft
+- Solar Power
 apis: []
+common:
+- type: DomainSecurity
+  url: security/icarus-domain-security.yml
+- type: Website
+  url: https://www.icarus.one/
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
