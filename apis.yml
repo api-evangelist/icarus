@@ -47,7 +47,7 @@ x-enrichment-note: No public API, developer portal, SDK, or MCP surface found (d
   hardware company). Identity enriched from icarus.one and Y Combinator; domain security probed.
 specificationVersion: '0.23'
 created: '2026-07-17'
-modified: '2026-07-19'
+modified: '2026-10-06'
 tags:
 - Company
 - Aerospace
@@ -59,6 +59,8 @@ tags:
 - Solar Power
 apis: []
 common:
+- url: https://henryicarus.substack.com/feed
+  type: BlogRSS
 - type: DomainSecurity
   url: security/icarus-domain-security.yml
 - type: Website
